@@ -4,7 +4,7 @@ import "hardhat/console.sol";
 import "./ExampleExternalContract.sol";
 
 contract Staker {
-
+  //Test comment
   ExampleExternalContract public exampleExternalContract;
   uint256 public constant threshold = 1 ether;
   mapping ( address => uint256 ) public balances;
